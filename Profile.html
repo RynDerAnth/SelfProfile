@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP Modul 3</title>
+</head>
+<body>
+    <h1>Profil Pribadi</h1> <!--Tag h1 untuk header yang terbesar-->
+    <table> <!--Tag table untuk membuat header dan digunakan agar header foto dan video tetap diatas masing-masing foto dan video-->
+        <tr> <!--Tag tr digunakan untuk pendefinisian baris-->
+            <th>Foto Profil</th> <!--Tag th digunakan untuk pendefinisian header pada tabel-->
+            <th>Video Perkenalan</th>
+        </tr>
+        <tr>
+            <td><img src="foto.jpg" alt="Foto Formal" width="200"></td> <!--Tag td digunakan untuk pendefinisian kolom pada tabel-->
+            <td><video height="200"><source src="vid.mp4" type="video/mp4"></video></td>
+        </tr>
+    </table>
+    <h2>Tentang Saya</h2> <!--Tag h2 untuk header kedua terbesar-->
+    <p>Halo! Saya Rayyn Derya Anthares dan saya adalah mahasiswa yang sedang berada di semester 5 prodi S1 Teknologi Informasi.</p> <!--Tag p untuk menuliskan paragraf deskripsi-->
+    <h2>Keterampilan</h2>
+    <table>
+        <tr>
+            <th>Keterampilan</th>
+            <th>Tingkat</th>
+        </tr>
+        <tr>
+            <td>Go Language</td>
+            <td>Menengah</td>
+        </tr>
+        <tr>
+            <td>C++</td>
+            <td>Menengah</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>Pemula</td>
+        </tr>
+        <tr>
+            <td>HTML/CSS</td>
+            <td>Pemula</td>
+        </tr>
+    </table>
+    <h2>Hubungi Saya</h2>
+    <form> <!--Tag form untuk membuat form-->
+        <div class="form-group"> <!--Tag div membagi ruang form-->
+            Nama: <input type="text" name="name" id="name"> <!--Tang input untuk menerima masukkan-->
+        </div>
+        <div class="form-group">
+            Email: <input type="email" name="email" id="email">
+        </div>
+        <div class="form-group">
+            Pesan: 
+            <br> <!--Tag br untuk menambahkan break pada baris/row-->
+            <textarea name="pesan" rows="3"></textarea> <!--Tag textarea untuk raung mengetik-->
+            <br>
+            <button type="submit">Kirim Pesan</button> <!--Tag button untuk membuat tombol-->
+        </div>
+    </form>
+    <h2>Media Sosial:</h2>
+    <a href="https://www.linkedin.com/in/rayyn-derya-anthares/">LinkedIn</a> <!--Tag a untuk memasukkan link-->|
+    <a href="https://github.com/RynDerAnth">GitHub</a>
+</body>
+</html>
